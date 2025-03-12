@@ -8,7 +8,7 @@ env:
   LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 5e662f67-d00e-4e62-9bef-0c4216929164
-  WEBAPP-NAME: eshoponweb-webapp-teki
+  WEBAPP-NAME: eshoponweb-webapp-teki11111
 
 
 jobs:
