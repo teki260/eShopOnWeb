@@ -1,7 +1,7 @@
 name: eShopOnWeb Build and Test
 #Triggers (uncomment line below to use it)
 on: 
-  push:          # Trigger when code is pushed to the repository
+  push:          # Trigger when code is pushed to the repositor
     branches:
       - main     # Can specify any branch you want, here it's the 'main' branch
   workflow_dispatch:  # Manual trigger option
