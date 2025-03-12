@@ -1,9 +1,9 @@
 name: eShopOnWeb Build and Test
 
-Triggers (uncomment line below to use it)
+vTriggers (uncomment line below to use it)
 on: [push, workflow_dispatch]
 
-Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
+#Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-teki
   LOCATION: westeurope
