@@ -1,6 +1,10 @@
 name: eShopOnWeb Build and Test
 #Triggers (uncomment line below to use it)
-on: [push, workflow_dispatch]
+on: 
+  push:          # Trigger when code is pushed to the repository
+    branches:
+      - main     # Can specify any branch you want, here it's the 'main' branch
+  workflow_dispatch:  # Manual trigger option
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
